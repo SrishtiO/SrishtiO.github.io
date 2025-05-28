@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  
+  .book-shelf {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Make the links behave like full-size block containers */
+  .book-shelf a {
+    flex: 1;
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Inner section styles */
+  .section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* aligns items to top */
+    padding-top: 2rem;       /* space from the top */
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  /* Pastel backgrounds */
+  #section-1 {
+    background-color: #ffe4e1;
+  }
+  #section-2 {
+    background-color: #e0ffff;
+  }
+  #section-3 {
+    background-color: #f0fff0;
+  }
+  #section-4 {
+    background-color: #fffacd;
+  }
+  #section-5 {
+    background-color: #e6e6fa;
+  }
+  
+  /* Hover (optional) */
+  .section:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
