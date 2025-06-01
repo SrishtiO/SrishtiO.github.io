@@ -9,6 +9,7 @@
     width: 100%;
     font-family: sans-serif;
   }
+
   
   .book-shelf {
     display: flex;
@@ -23,6 +24,9 @@
     text-decoration: none;
     height: 100%;
     width: 100%;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
   }
   
   /* Inner section styles */
@@ -32,29 +36,46 @@
     display: flex;
     justify-content: center;
     align-items: flex-start; /* aligns items to top */
-    padding-top: 2rem;       /* space from the top */
+    padding-top: 10rem;       /* space from the top */;
     font-size: 2.5rem;
     font-weight: bold;
-    color: black;
+    color: #736e4b;
     transition: transform 0.3s ease;
   }
   
-  
+  section img {
+    width: 200px;
+  }
   /* Pastel backgrounds */
   #section-1 {
     background-color: #ffe4e1;
+    background-image: url("./images/Book-Spines-01.jpg");
+    background-size: cover;
+    background-position: center;
   }
   #section-2 {
     background-color: #e0ffff;
+    background-image: url("./images/Book-Spines-02.jpg");
+    background-size: cover;
+    background-position: center;
   }
   #section-3 {
     background-color: #f0fff0;
+    background-image: url("./images/Book-Spines-03.jpg");
+    background-size: cover;
+    background-position: center;
   }
   #section-4 {
     background-color: #fffacd;
+    background-image: url("./images/Book-Spines-04.jpg");
+    background-size: cover;
+    background-position: center;
   }
   #section-5 {
     background-color: #e6e6fa;
+    background-image: url("./images/Book-Spines-05.jpg");
+    background-size: cover;
+    background-position: center;
   }
   
   /* Hover (optional) */
@@ -62,4 +83,17 @@
     transform: scale(1.02);
     cursor: pointer;
   }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  .content-wrap {
+    padding: 2rem;
+  }
+  
   
